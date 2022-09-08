@@ -11,7 +11,7 @@ type result struct {
 	status string
 }
 
-func main() {
+func Url_Checker() {
 	results := make(map[string]string)// same map[string]string{}
 	// uninitailized map, cant input some value
 	c := make(chan result)
